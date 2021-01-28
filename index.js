@@ -1,28 +1,20 @@
-var Budget= prompt("What is your Budget?");
+var favflower = prompt('What is your favorite flower (Daisy/Rose/Tulip)?');
 
-var flowertype;
-
-if ( Budget<=30 && Budget>15 ) 
-{
-    flowertype = "Daisies";
-} 
-else if (Budget>30 && Budget<50) 
-{
-    flowertype = "Garden Roses";
-} 
-else if (Budget>=50 && Budget<100) 
-{
-    flowertype = "Tulips";
+while (favflower !== "Daisy" && favflower !== "Rose" && favflower !== "Tulip") {
+    favflower = prompt('What is your favorite flower (Daisy/Rose/Tulip)?');
 }
- else if (Budget == 0)
-{
-    flowertype = "Error";
-} 
-else 
-{  
-    flowertype = "Any";
-} 
-
-document.write(flowertype);
-confirm("Are you satisfied with service provided?");
+var flowerimage;
+if (favflower == "Daisy") {
+    flowerimage = '<img src="Images/Daisy.jpg"/>';
+}
+else if (favflower == "Rose") {
+    flowerimage = '<img src="Images/Roses.jpg"/>';}
+else if (favflower == "Tulip") {
+    flowerimage = '<img src="Images/Tulip.jpg"/>';}
+var BouquetNo = prompt("How many Bouquets do you want?");
+var numberofimages = ''
+for (let i = 0; i < BouquetNo; i++) {
+    numberofimages = numberofimages + flowerimage;}
+document.write(numberofimages);
+confirm("Are you satisfied with our service?");
 alert("Thank you for shopping with us");
