@@ -1,7 +1,9 @@
 var favflower = prompt('What is your favorite flower (Daisy/Rose/Tulip)?');
-var BouquetNo = prompt("How many Bouquets do you want?");
+
 while (favflower !== "Daisy" && favflower !== "Rose" && favflower !== "Tulip") {
     favflower = prompt('What is your favorite flower (Daisy/Rose/Tulip)?');}
+    
+var BouquetNo = prompt("How many Bouquets do you want?");
 var flowerimage;
 var numberofimages = ''
 
