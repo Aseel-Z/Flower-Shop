@@ -1,0 +1,38 @@
+body { background-color:rgb(247,247,96)}
+main div {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+body header nav {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+ 
+body header nav ul li {
+   text-align: center;
+    color: #9e0c30;
+    padding: 20px;
+  }
+ 
+  main h1 {
+    text-align: center;
+    color: #040a5c;
+    margin: 20px 0px 20px 0px;
+  }
+
+  main h2 {
+    text-align: center;
+    color: #040a5c;
+    margin: 20px 0px 20px 0px;
+  }
+ 
+  body main p {
+    text-align: center;
+    color: #040a5c;
+    margin: 20px 0px 20px 0px;
+  }
+body footer {
+  text-align: center;
+  color: #040a5c;}
